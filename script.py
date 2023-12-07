@@ -12,4 +12,4 @@ def frequency(numbers):
 if __name__ == "__main__":
     numbers = [int(arg) for arg in sys.argv[1:]]
     max = frequency(numbers)
-    print(max) 
+    print(max)

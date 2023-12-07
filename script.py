@@ -12,8 +12,4 @@ def frequency(numbers):
 if __name__ == "__main__":
     numbers = [int(arg) for arg in sys.argv[1:]]
     max = frequency(numbers)
-<<<<<<< HEAD
-    print(max)
-=======
-    print(max)
->>>>>>> 4a0f185 (script changes)
+    print(f"The most frequent number is: {max}")

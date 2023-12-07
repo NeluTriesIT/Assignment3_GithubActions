@@ -23,7 +23,6 @@ jobs:
     build-and-push:
         runs-on: ubuntu-latest
         needs: lint
-        if: github.event_name == 'push'
         steps:
             - uses: actions/checkout@v2
             - name: Set up Docker Buildx
@@ -38,4 +37,7 @@ jobs:
               with:
                 context: .
                 push: true
-                tags: nelututriesit/cicd:latest
+                tags:
+                 nelututriesit/cicd:1
+                 nelututriesit/cicd:2
+                 nelututriesit/cicd:3

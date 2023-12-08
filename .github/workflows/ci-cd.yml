@@ -1,10 +1,8 @@
 name: CI/CD Workflow
 
 on:
-    push:
-        branches:
-            - master
-            - test2
+  push:
+    branches: test2
 
 jobs:
     lint:

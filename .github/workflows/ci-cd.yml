@@ -38,6 +38,4 @@ jobs:
                 context: .
                 push: true
                 tags:
-                     nelututriesit/cicd:1
-                     nelututriesit/cicd:2
-                     nelututriesit/cicd:3
+                     nelututriesit/cicd:latest

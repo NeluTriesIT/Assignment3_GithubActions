@@ -1,9 +1,10 @@
 name: CI/CD Workflow
 
 on:
-    pull_request:
+    push:
         branches:
             - master
+            - test2
 
 jobs:
     lint:

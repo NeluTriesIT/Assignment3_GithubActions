@@ -2,7 +2,7 @@ name: dockerbuild
 
 on:
   push:
-    branches: main
+    branches: test2
 
 jobs:
   login:
